@@ -1,10 +1,10 @@
 import { NavLink } from "react-router-dom";
-import { StyledLink, StyledNavigation, StyledFooterAuthor } from "./Footer.style";
+import { StyledLink, StyledFooter, StyledFooterAuthor } from "./Footer.style";
 
 export function Footer() {
   return (
     <>
-      <StyledNavigation>
+      <StyledFooter>
         <NavLink to="https://github.com/marcinbe88">
           <StyledLink>GitHub</StyledLink>
         </NavLink>
@@ -20,7 +20,7 @@ export function Footer() {
             <StyledLink>IG</StyledLink>
           </NavLink>
         </div>
-      </StyledNavigation>
+      </StyledFooter>
       <StyledFooterAuthor>
         Copyright © 2022 Marcin Bejger. All rights reserved
       </StyledFooterAuthor>

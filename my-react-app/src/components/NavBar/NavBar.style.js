@@ -11,7 +11,9 @@ export const StyledNavigation = styled.nav`
 
 export const StyledLink = styled.p`
   color: blue;
+  text-decoration: none;
   font-weight: bold;
+
 `;
 
 export const StyledImgLogo = styled.img`

@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
-export const StyledNavigation = styled.nav`
-  background-color: yellow;
+export const StyledFooter = styled.footer`
+  background-color: lightgrey;
   height: 100px;
   width: 100%;
   display: flex;
@@ -24,7 +24,9 @@ export const StyledImgLogo = styled.img`
 `;
 
 export const StyledFooterAuthor = styled.div`
-  background-color: yellow;
+  background-color: lightgrey;
   display: flex;
   justify-content: center;
+  font-size: 16px;
+  font-weight: bold;
 `;
