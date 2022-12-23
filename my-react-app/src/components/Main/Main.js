@@ -1,8 +1,8 @@
-import { StyledHeader, StyledParagraph } from "./Main.style";
+import { StyledHeader, StyledMainDiv, StyledParagraph } from "./Main.style";
 
 export const Main = () => {
   return (
-    <main>
+    <StyledMainDiv>
       <StyledHeader>Sports Diary App</StyledHeader>
       <StyledParagraph>
         Do you take part in sports competition and races? Is it difficult for
@@ -15,6 +15,6 @@ export const Main = () => {
         10k run, 21k run, 42k run, 1k swim, 2k swim, 1/4 Ironman, 1/2 Ironman,
         etc.)
       </StyledParagraph>
-    </main>
+    </StyledMainDiv>
   );
 };
