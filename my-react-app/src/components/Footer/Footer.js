@@ -5,7 +5,7 @@ export function Footer() {
   return (
     <>
       <StyledFooter>
-        <NavLink to="https://github.com/marcinbe88">
+        <NavLink to="www.github.com/marcinbe88">
           <StyledLink>GitHub</StyledLink>
         </NavLink>
 

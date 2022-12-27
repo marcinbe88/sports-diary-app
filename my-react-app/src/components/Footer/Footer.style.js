@@ -17,7 +17,7 @@ export const StyledLink = styled.p`
 
 export const StyledImgLogo = styled.img`
   align-items: left;
-  width: 220x;
+  width: 220px;
   height: 50px;
   justify-content: center;
   margin: 30px;
