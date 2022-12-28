@@ -15,5 +15,7 @@ export const StyledParagraph = styled.p`
 
 export const StyledMainDiv = styled.div`
   background-color: khaki;
+  /* background: url('../../assets/background1.jpeg'); */
+  /* overflow: hidden; */
   padding: 50px;
-`
+`;
