@@ -1,9 +1,11 @@
-import { StyledHeader } from "./RegisterAccount.style";
+import { StyledHeader, StyledRegisterSection } from "./RegisterAccount.style";
 
 export const RegisterAccount = () => {
   return (
     <>
-      <StyledHeader>Register form</StyledHeader>
+      <StyledRegisterSection>
+        <StyledHeader>Register form</StyledHeader>
+      </StyledRegisterSection>
     </>
   );
 };

@@ -1,9 +1,11 @@
-import { StyledHeader } from "./UserLogin.style";
+import { StyledHeader, StyledLoginSection } from "./UserLogin.style";
 
 export const UserLogin = () => {
   return (
     <>
-      <StyledHeader>Login form...</StyledHeader>
+      <StyledLoginSection>
+        <StyledHeader>Login form...</StyledHeader>
+      </StyledLoginSection>
     </>
   );
 };

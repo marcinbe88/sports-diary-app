@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const StyledFooter = styled.footer`
-  background-color: lightgrey;
+  background-color: navy;
   height: 100px;
   width: 100%;
   display: flex;
@@ -10,7 +10,7 @@ export const StyledFooter = styled.footer`
 `;
 
 export const StyledLink = styled.p`
-  color: blue;
+  color: grey;
   font-weight: bold;
   margin: 50px;
 `;
@@ -24,7 +24,8 @@ export const StyledImgLogo = styled.img`
 `;
 
 export const StyledFooterAuthor = styled.div`
-  background-color: lightgrey;
+  color: grey;
+  background-color: navy;
   display: flex;
   justify-content: center;
   font-size: 16px;

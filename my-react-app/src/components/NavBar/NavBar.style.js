@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const StyledNavigation = styled.nav`
-  background-color: yellow;
+  background-color: navy;
   height: 100px;
   width: 100%;
   display: flex;
@@ -10,10 +10,10 @@ export const StyledNavigation = styled.nav`
 `;
 
 export const StyledLink = styled.p`
-  color: blue;
+  color: white;
   text-decoration: none;
   font-weight: bold;
-
+  text-transform: uppercase;
 `;
 
 export const StyledImgLogo = styled.img`
