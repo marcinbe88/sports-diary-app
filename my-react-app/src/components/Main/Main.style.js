@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import BackgroundPic from "../../assets/background1small.jpg";
+import BackgroundPic from "../../assets/background3small.jpg";
 
 export const StyledHeader = styled.h1`
   margin: 30px;
@@ -18,7 +18,7 @@ export const StyledParagraph = styled.p`
 export const StyledMainSection = styled.div`
   background: url(${BackgroundPic});
   font-family: "Play", sans-serif;
-  height: 800px;
+  height: 1000px;
   width: 100%;
   overflow: hidden;
   padding: 80px;

@@ -1,10 +1,16 @@
-import { StyledHeader, StyledRegisterSection } from "./RegisterAccount.style";
+import {
+  StyledHeader,
+  StyledRegisterDescription,
+  StyledRegisterSection,
+} from "./RegisterAccount.style";
 
 export const RegisterAccount = () => {
   return (
     <>
       <StyledRegisterSection>
-        <StyledHeader>Register form</StyledHeader>
+        <StyledRegisterDescription>
+          <StyledHeader>Register form</StyledHeader>
+        </StyledRegisterDescription>
       </StyledRegisterSection>
     </>
   );

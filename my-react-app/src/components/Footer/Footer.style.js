@@ -9,10 +9,12 @@ export const StyledFooter = styled.footer`
   align-items: center;
 `;
 
-export const StyledLink = styled.p`
-  color: grey;
+export const StyledLink = styled.a`
+  color: rgb(29, 104, 255);
+  text-decoration: none;
   font-weight: bold;
   margin: 50px;
+  text-decoration: none;
 `;
 
 export const StyledImgLogo = styled.img`
@@ -24,7 +26,8 @@ export const StyledImgLogo = styled.img`
 `;
 
 export const StyledFooterAuthor = styled.div`
-  color: grey;
+  color: rgb(29, 104, 255);
+  padding-bottom: 50px;
   background-color: navy;
   display: flex;
   justify-content: center;

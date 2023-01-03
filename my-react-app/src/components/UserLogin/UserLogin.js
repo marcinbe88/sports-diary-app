@@ -1,10 +1,16 @@
-import { StyledHeader, StyledLoginSection } from "./UserLogin.style";
+import {
+  StyledHeader,
+  StyledLoginDescription,
+  StyledLoginSection,
+} from "./UserLogin.style";
 
 export const UserLogin = () => {
   return (
     <>
       <StyledLoginSection>
-        <StyledHeader>Login form...</StyledHeader>
+        <StyledLoginDescription>
+          <StyledHeader>Login form...</StyledHeader>
+        </StyledLoginDescription>
       </StyledLoginSection>
     </>
   );

@@ -1,10 +1,16 @@
-import { StyledContactSection, StyledHeader } from "./ContactUs.style";
+import {
+  StyledContactDescription,
+  StyledContactSection,
+  StyledHeader,
+} from "./ContactUs.style";
 
 export const ContactUs = () => {
   return (
     <>
       <StyledContactSection>
-        <StyledHeader>Contact Us...</StyledHeader>
+        <StyledContactDescription>
+          <StyledHeader>Contact Us...</StyledHeader>
+        </StyledContactDescription>
       </StyledContactSection>
     </>
   );
