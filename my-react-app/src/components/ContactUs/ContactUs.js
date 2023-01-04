@@ -2,6 +2,7 @@ import {
   StyledContactDescription,
   StyledContactSection,
   StyledHeader,
+  StyledParagraph,
 } from "./ContactUs.style";
 
 export const ContactUs = () => {
@@ -10,6 +11,9 @@ export const ContactUs = () => {
       <StyledContactSection>
         <StyledContactDescription>
           <StyledHeader>Contact Us...</StyledHeader>
+          <StyledParagraph>Marcin Bejger - founder</StyledParagraph>
+          <StyledParagraph>marcin.bejger@gmail.com</StyledParagraph>
+          <StyledParagraph>555-444-333</StyledParagraph>
         </StyledContactDescription>
       </StyledContactSection>
     </>

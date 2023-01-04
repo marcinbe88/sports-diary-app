@@ -8,6 +8,14 @@ export const StyledHeader = styled.h2`
   text-decoration: underline;
 `;
 
+export const StyledParagraph = styled.p`
+  margin: 10px 30px;
+  color: navy;
+  font-size: 20px;
+  width: 400px;
+  font-weight: bold;
+`;
+
 export const StyledContactSection = styled.div`
   background: url(${BackgroundPic});
   font-family: "Play", sans-serif;
