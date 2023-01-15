@@ -14,7 +14,7 @@ export const StyledRegisterSection = styled.div`
   height: 1000px;
   width: 100%;
   overflow: hidden;
-  padding: 50px;
+  padding: 80px;
 `;
 
 export const StyledRegisterDescription = styled.div`

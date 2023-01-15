@@ -22,7 +22,7 @@ export const StyledContactSection = styled.div`
   height: 1000px;
   width: 100%;
   overflow: hidden;
-  padding: 50px;
+  padding: 80px;
 `;
 
 export const StyledContactDescription = styled.div`
