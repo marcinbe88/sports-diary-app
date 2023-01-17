@@ -22,7 +22,7 @@ export function Footer() {
         </div>
       </StyledFooter>
       <StyledFooterAuthor>
-        Copyright © 2022 Marcin Bejger. All rights reserved
+        Copyright © 2023 Marcin Bejger. All rights reserved.
       </StyledFooterAuthor>
     </>
   );
