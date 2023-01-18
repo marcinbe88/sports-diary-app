@@ -28,7 +28,7 @@ export const StyledLoginSection = styled.div`
 export const StyledLoginDescription = styled.div`
   background-color: rgb(213, 210, 210, 0.8);
   border-radius: 30px;
-  width: 500px;
+  width: 400px;
   padding: 25px;
 `;
 
@@ -37,6 +37,7 @@ export const StyledInputBox = styled.input`
   height: 30px;
   margin-left: 30px;
   border-radius: 8px;
+  font-size: 16px;
 `
 
 export const StyledButton = styled.button`
@@ -47,4 +48,12 @@ export const StyledButton = styled.button`
   background-color: navy;
   color: white;
   font-size: 16px;
+`
+
+export const StyledLink = styled.p`
+  margin-left:30px;
+  color: navy;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
 `
