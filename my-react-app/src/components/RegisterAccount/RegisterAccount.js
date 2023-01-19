@@ -15,7 +15,21 @@ export const RegisterAccount = () => {
       <StyledLoginSection>
         <StyledLoginDescription>
           <StyledHeader>Register</StyledHeader>
-          <StyledParagraph>Email:</StyledParagraph>
+          <StyledParagraph>Name:</StyledParagraph>
+          <StyledInputBox
+            name="name"
+            type="text"
+            placeholder="Write your name"
+            maxLength="30"
+          />
+           <StyledParagraph>Surname:</StyledParagraph>
+          <StyledInputBox
+            name="surname"
+            type="text"
+            placeholder="Write your surname"
+            maxLength="30"
+          />
+           <StyledParagraph>Email:</StyledParagraph>
           <StyledInputBox
             name="email"
             type="text"
@@ -29,13 +43,7 @@ export const RegisterAccount = () => {
             placeholder="Write your passport"
             maxLength="30"
           />
-          <NavLink to="/about">
-            <StyledLink>Register</StyledLink>
-          </NavLink>
-          <NavLink to="/about">
-            <StyledLink>Forgot your password?</StyledLink>
-          </NavLink>
-          <StyledButton>Login</StyledButton>
+          <StyledButton>Create account</StyledButton>
         </StyledLoginDescription>
       </StyledLoginSection>
     </>

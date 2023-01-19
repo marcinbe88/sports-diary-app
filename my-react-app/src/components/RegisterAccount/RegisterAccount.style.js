@@ -41,7 +41,7 @@ export const StyledInputBox = styled.input`
 `
 
 export const StyledButton = styled.button`
-  width: 100px;
+  width: 150px;
   height: 40px;
   margin: 20px 30px;
   border-radius: 16px;
