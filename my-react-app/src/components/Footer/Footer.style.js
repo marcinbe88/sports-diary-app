@@ -13,16 +13,8 @@ export const StyledLink = styled.a`
   color: rgb(29, 104, 255);
   text-decoration: none;
   font-weight: bold;
-  margin: 50px;
+  margin: 10px;
   text-decoration: none;
-`;
-
-export const StyledImgLogo = styled.img`
-  align-items: left;
-  width: 220px;
-  height: 50px;
-  justify-content: center;
-  margin: 30px;
 `;
 
 export const StyledFooterAuthor = styled.div`
@@ -33,4 +25,10 @@ export const StyledFooterAuthor = styled.div`
   justify-content: center;
   font-size: 16px;
   font-weight: bold;
+`;
+
+export const StyledImageLogo = styled.img`
+  height: 50px;
+  justify-content: center;
+  margin: 10px;
 `;
