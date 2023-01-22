@@ -1,6 +1,14 @@
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+
+import { About } from "../../views/About";
+import { Contact } from "../../views/Contact";
+import { Home } from "../../views/Home";
+import { Login } from "../../views/Login";
+import { UserPage } from "../../views/UserPanel";
+import { UserPanelNavBar } from "../UserPanelNavBar/UserPanelNavBar";
 import {
-  StyledContactDescription,
-  StyledContactSection,
+  StyledUserPanelDescription,
+  StyledUserPanelSection,
   StyledHeader,
   StyledParagraph,
 } from "./UserPanel.style";
@@ -8,13 +16,23 @@ import {
 export const UserPanel = () => {
   return (
     <>
-    
-      <StyledContactSection>
-        <StyledContactDescription>
-          <StyledHeader>User Panel</StyledHeader>
+      <StyledUserPanelSection>
+        <StyledUserPanelDescription>
           
-        </StyledContactDescription>
-      </StyledContactSection>
+
+          {/* <BrowserRouter> */}
+            <UserPanelNavBar />
+            <StyledHeader>User Panel</StyledHeader>
+            <Routes>
+              <Route path="/about" element={<About />} />
+              <Route path="/contact" element={<Contact />} />
+              <Route path="/login" element={<Login />} />
+              <Route path="/userpanel" element={<UserPage />} />
+            </Routes>
+          {/* </BrowserRouter> */}
+
+        </StyledUserPanelDescription>
+      </StyledUserPanelSection>
     </>
   );
 };

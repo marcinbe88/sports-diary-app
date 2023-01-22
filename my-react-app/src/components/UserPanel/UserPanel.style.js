@@ -16,7 +16,7 @@ export const StyledParagraph = styled.p`
   font-weight: bold;
 `;
 
-export const StyledContactSection = styled.div`
+export const StyledUserPanelSection = styled.div`
   background: url(${BackgroundPic});
   font-family: "Play", sans-serif;
   height: 1000px;
@@ -25,9 +25,11 @@ export const StyledContactSection = styled.div`
   padding: 80px;
 `;
 
-export const StyledContactDescription = styled.div`
-  background-color: rgb(213, 210, 210, 0.8);
+export const StyledUserPanelDescription = styled.div`
+  background-color: rgb(213, 210, 210, 0.9);
   border-radius: 30px;
-  width: 500px;
+  width: 1150px;
+  height: 850px;
   padding: 25px;
-`;
+  margin: 0 auto;
+  `;

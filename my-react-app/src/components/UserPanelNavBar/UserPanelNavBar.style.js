@@ -1,26 +1,19 @@
 import styled from "styled-components";
 
 export const StyledNavigation = styled.nav`
-  background-color: navy;
-  height: 100px;
+  background-color: orange;
+  height: 60px;
   width: 100%;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  border-radius: 20px;
 `;
 
 export const StyledLink = styled.p`
-  color: white;
+  color: black;
   text-decoration: none;
   font-weight: bold;
-  font-size: 20px;
-  text-transform: uppercase;
-`;
-
-export const StyledImgLogo = styled.img`
-  align-items: left;
-  width: 220x;
-  height: 50px;
-  justify-content: center;
-  margin: 30px;
+  /* text-transform: uppercase; */
+  font-size: 18px;
 `;
