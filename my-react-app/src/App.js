@@ -7,6 +7,7 @@ import { Contact } from "./views/Contact";
 import { Home } from "./views/Home";
 import { Login } from "./views/Login";
 import { Register } from "./views/Register";
+import { UserPage } from "./views/UserPanel";
 
 export function App() {
   return (
@@ -19,6 +20,7 @@ export function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
+          <Route path="/userpanel" element={<UserPage />} />
         </Routes>
         <Footer />
       </BrowserRouter>

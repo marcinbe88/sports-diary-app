@@ -29,8 +29,8 @@ export function NavBar() {
         </div>
 
         <div className="li">
-          <NavLink to="/register">
-            <StyledLink>Register</StyledLink>
+          <NavLink to="/userpanel">
+            <StyledLink>User panel</StyledLink>
           </NavLink>
         </div>
       </StyledNavigation>
