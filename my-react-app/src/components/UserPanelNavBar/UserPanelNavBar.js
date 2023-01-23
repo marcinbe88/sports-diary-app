@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import { StyledImgLogo, StyledLink, StyledNavigation } from "./UserPanelNavBar.style";
+import { StyledLink, StyledNavigation } from "./UserPanelNavBar.style";
 
 export function UserPanelNavBar() {
   return (

@@ -21,11 +21,7 @@ export const UserPanelSeeResult = () => {
 
           <BrowserRouter>
             <UserPanelNavBar />
-            <Routes>
-              <Route path="/userpanel-seeresult" element={<UserPanelSee />} />
-              <Route path="/userpanel-addresult" element={<UserPanelAdd  />} />
-              <Route path="/userpanel-settings" element={<UserPanelSet />} />
-            </Routes>
+            See Result Section
           </BrowserRouter>
 
         </StyledUserPanelDescription>
