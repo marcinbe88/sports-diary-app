@@ -29,7 +29,7 @@ export function NavBar() {
         </div>
 
         <div className="li">
-          <NavLink to="/userpanel">
+          <NavLink to="/userpanel-seeresult">
             <StyledLink>User panel</StyledLink>
           </NavLink>
         </div>

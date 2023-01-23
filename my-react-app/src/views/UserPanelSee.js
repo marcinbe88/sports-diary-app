@@ -1,9 +1,11 @@
-import { UserPanel } from "../components/UserPanel/UserPanel";
+import { UserPanelSeeResult } from "../components/UserPanelSeeResult/UserPanelSeeResult";
+import { UserPanelNavBar } from "../components/UserPanelNavBar/UserPanelNavBar";
 
-export function UserPage() {
+export function UserPanelSee() {
   return (
     <>
-      <UserPanel />
+    <UserPanelNavBar />
+      <UserPanelSeeResult />
 
       {/* <BrowserRouter>
         <Routes>

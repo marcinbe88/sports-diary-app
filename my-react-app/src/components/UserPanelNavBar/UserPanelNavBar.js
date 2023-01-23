@@ -7,19 +7,19 @@ export function UserPanelNavBar() {
       <StyledNavigation>
       
         <div className="li">
-          <NavLink to="/about">
+          <NavLink to="/userpanel-addresult">
             <StyledLink>Add new result</StyledLink>
           </NavLink>
         </div>
 
         <div className="li">
-          <NavLink to="/contact">
+          <NavLink to="/userpanel-seeresult">
             <StyledLink>See your results</StyledLink>
           </NavLink>
         </div>
 
         <div className="li">
-          <NavLink to="/login">
+          <NavLink to="/userpanel-settings">
             <StyledLink>Settings</StyledLink>
           </NavLink>
         </div>
