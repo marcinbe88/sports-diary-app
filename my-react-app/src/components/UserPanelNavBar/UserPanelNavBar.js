@@ -5,16 +5,15 @@ export function UserPanelNavBar() {
   return (
     <>
       <StyledNavigation>
-      
         <div className="li">
-          <NavLink to="/userpanel-addresult">
-            <StyledLink>Add new result</StyledLink>
+          <NavLink to="/userpanel-seeresult">
+            <StyledLink>See your results</StyledLink>
           </NavLink>
         </div>
 
         <div className="li">
-          <NavLink to="/userpanel-seeresult">
-            <StyledLink>See your results</StyledLink>
+          <NavLink to="/userpanel-addresult">
+            <StyledLink>Add new result</StyledLink>
           </NavLink>
         </div>
 
@@ -23,7 +22,6 @@ export function UserPanelNavBar() {
             <StyledLink>Settings</StyledLink>
           </NavLink>
         </div>
-
       </StyledNavigation>
     </>
   );
