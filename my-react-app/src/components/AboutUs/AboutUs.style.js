@@ -9,9 +9,10 @@ export const StyledHeader = styled.h2`
 `;
 
 export const StyledParagraph = styled.p`
-  margin: 10px 30px;
+  margin: 18px 30px;
   color: navy;
   font-size: 20px;
+  line-height: 1.5;
   width: 400px;
   font-weight: bold;
 `;

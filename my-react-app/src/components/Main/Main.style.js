@@ -8,10 +8,11 @@ export const StyledHeader = styled.h1`
 `;
 
 export const StyledParagraph = styled.p`
-  margin: 10px 30px;
+  margin: 18px 30px;
   color: navy;
   font-size: 20px;
   font-weight: bold;
+  line-height: 1.5;
   width: 400px;
 `;
 
