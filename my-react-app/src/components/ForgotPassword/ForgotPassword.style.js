@@ -16,7 +16,7 @@ export const StyledParagraph = styled.p`
   width: 400px;
 `;
 
-export const StyledLoginSection = styled.div`
+export const StyledForgotPasswordSection = styled.div`
   background: url(${BackgroundPic});
   font-family: "Play", sans-serif;
   height: 1000px;
@@ -25,7 +25,7 @@ export const StyledLoginSection = styled.div`
   padding: 80px 350px;
 `;
 
-export const StyledLoginDescription = styled.div`
+export const StyledForgotPasswordDescription = styled.div`
   background-color: rgb(213, 210, 210, 0.8);
   border-radius: 30px;
   width: 400px;
@@ -42,7 +42,7 @@ export const StyledInputBox = styled.input`
 `
 
 export const StyledButton = styled.button`
-  width: 100px;
+  width: 180px;
   height: 40px;
   margin: 20px 30px;
   border-radius: 16px;

@@ -38,6 +38,7 @@ export const StyledInputBox = styled.input`
   margin-left: 30px;
   border-radius: 8px;
   font-size: 16px;
+  font-family: 'play';
 `
 
 export const StyledButton = styled.button`
@@ -48,6 +49,7 @@ export const StyledButton = styled.button`
   background-color: navy;
   color: white;
   font-size: 16px;
+  font-family: 'play';
 `
 
 export const StyledLink = styled.p`

@@ -7,6 +7,7 @@ import { Contact } from "./views/Contact";
 import { Home } from "./views/Home";
 import { Login } from "./views/Login";
 import { Register } from "./views/Register";
+import { ForgotPass } from "./views/ForgotPass";
 import { UserPanelSee } from "./views/UserPanelSee";
 import { UserPanelAdd } from "./views/UserPanelAdd";
 import { UserPanelSet } from "./views/UserPanelSet";
@@ -22,6 +23,7 @@ export function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
+          <Route path="/forgotpassword" element={<ForgotPass />} />
           <Route path="/userpanel-seeresult" element={<UserPanelSee />} />
           <Route path="/userpanel-addresult" element={<UserPanelAdd />} />
           <Route path="/userpanel-settings" element={<UserPanelSet />} />

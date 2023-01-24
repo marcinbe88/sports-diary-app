@@ -32,7 +32,7 @@ export const UserLogin = () => {
           <NavLink to="/register">
             <StyledLink>Register</StyledLink>
           </NavLink>
-          <NavLink to="/about">
+          <NavLink to="/forgotpassword">
             <StyledLink>Forgot your password?</StyledLink>
           </NavLink>
           <StyledButton>Login</StyledButton>
