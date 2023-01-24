@@ -28,7 +28,7 @@ export const StyledFooterAuthor = styled.div`
 `;
 
 export const StyledImageLogo = styled.img`
-  height: 50px;
+  height: 38px;
   justify-content: center;
   margin: 10px;
 `;
