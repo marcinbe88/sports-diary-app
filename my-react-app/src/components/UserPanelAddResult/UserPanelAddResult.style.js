@@ -9,7 +9,7 @@ export const StyledHeader = styled.h2`
 `;
 
 export const StyledParagraph = styled.p`
-  margin: 10px 30px;
+  margin: 10px auto;
   color: navy;
   font-size: 20px;
   width: 400px;

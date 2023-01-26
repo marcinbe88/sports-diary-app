@@ -13,6 +13,14 @@ export const UserPanelSeeResult = () => {
         <StyledUserPanelDescription>
           <UserPanelNavBar />
           <StyledParagraph>See Result Section</StyledParagraph>
+          <StyledParagraph>
+            <li>All result in one table</li>
+            <li>type of sport</li>
+            <li>name of the race</li>
+            <li>date of the race</li>
+            <li>distance</li>
+            <li>time</li>
+          </StyledParagraph>
         </StyledUserPanelDescription>
       </StyledUserPanelSection>
     </>
