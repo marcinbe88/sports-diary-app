@@ -10,10 +10,13 @@ export const StyledNavigation = styled.nav`
   border-radius: 20px;
 `;
 
-export const StyledLink = styled.p`
+export const StyledLink = styled.a`
   color: black;
   text-decoration: none;
   font-weight: bold;
   /* text-transform: uppercase; */
   font-size: 18px;
+  &:hover {
+    color: rgb(29, 104, 255);
+  }
 `;

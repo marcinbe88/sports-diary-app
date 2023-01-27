@@ -9,12 +9,15 @@ export const StyledNavigation = styled.nav`
   align-items: center;
 `;
 
-export const StyledLink = styled.p`
+export const StyledLink = styled.a`
   color: white;
-  text-decoration: none;
   font-weight: bold;
+  text-decoration: none;
   font-size: 20px;
   text-transform: uppercase;
+  &:hover {
+    color: orange;
+  }
 `;
 
 export const StyledImgLogo = styled.img`
