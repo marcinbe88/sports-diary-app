@@ -1,4 +1,3 @@
-import { NavLink, Link } from "react-router-dom";
 import {
   StyledLink,
   StyledFooter,
@@ -13,28 +12,31 @@ export function Footer() {
   return (
     <>
       <StyledFooter>
-        <NavLink to="www.github.com/marcinbe88">
-          <StyledLink>
-            <StyledImageLogo src={GitHubLogo} />
-          </StyledLink>
-        </NavLink>
-
         <div className="li">
-          <NavLink to="https://facebook.pl">
-            <StyledLink>
-              <StyledImageLogo src={FaceBookLogo} />
-            </StyledLink>
-          </NavLink>
+          <StyledLink>
+            <a href="https://github.com/marcinbe88">
+              <StyledImageLogo src={GitHubLogo} />
+            </a>
+          </StyledLink>
         </div>
 
         <div className="li">
-          <NavLink to="https://instagram.com">
-            <StyledLink>
+          <StyledLink>
+            <a href="https://facebook.com">
+              <StyledImageLogo src={FaceBookLogo} />
+            </a>
+          </StyledLink>
+        </div>
+
+        <div className="li">
+          <StyledLink>
+            <a href="https://instagram.com">
               <StyledImageLogo src={InstagramLogo} />
-            </StyledLink>
-          </NavLink>
+            </a>
+          </StyledLink>
         </div>
       </StyledFooter>
+
       <StyledFooterAuthor>
         Copyright © 2023 Marcin Bejger. All rights reserved.
       </StyledFooterAuthor>
