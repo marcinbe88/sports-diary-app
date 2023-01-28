@@ -9,7 +9,7 @@ export const StyledFooter = styled.footer`
   align-items: center;
 `;
 
-export const StyledLink = styled.a`
+export const StyledLink = styled.p`
   color: rgb(29, 104, 255);
   text-decoration: none;
   font-weight: bold;
@@ -28,7 +28,12 @@ export const StyledFooterAuthor = styled.div`
 `;
 
 export const StyledImageLogo = styled.img`
-  height: 38px;
+  height: 58px;
   justify-content: center;
-  margin: 10px;
+  padding: 6px;
+  border-radius: 20px;
+  &:hover {
+    /* height: 74px; */
+    background: rgb(29, 104, 255);
+  }
 `;

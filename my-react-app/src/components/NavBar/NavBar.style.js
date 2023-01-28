@@ -16,7 +16,7 @@ export const StyledLink = styled.a`
   font-size: 20px;
   text-transform: uppercase;
   &:hover {
-    color: orange;
+    color: rgb(29, 104, 255);
   }
 `;
 
