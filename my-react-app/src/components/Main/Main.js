@@ -1,9 +1,11 @@
 import {
+  StyledButton,
   StyledHeader,
   StyledMainDescription,
   StyledMainSection,
   StyledParagraph,
 } from "./Main.style";
+import { NavLink } from "react-router-dom";
 
 export const Main = () => {
   return (
@@ -21,6 +23,9 @@ export const Main = () => {
           distances (e.g. 10k run, 21k run, 42k run, 1k swim, 2k swim, 1/4
           Ironman, 1/2 Ironman, etc.)
         </StyledParagraph>
+        <NavLink to="/userpanel-seeresult">
+          <StyledButton>Add your result</StyledButton>
+        </NavLink>
       </StyledMainDescription>
     </StyledMainSection>
   );

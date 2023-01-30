@@ -31,3 +31,19 @@ export const StyledMainDescription = styled.div`
   width: 500px;
   padding: 25px;
 `;
+
+export const StyledButton = styled.button`
+  width: 150px;
+  height: 40px;
+  margin: 20px 30px;
+  border-radius: 16px;
+  background-color: navy;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: 'play';
+  &:hover {
+    color: rgb(29, 104, 255);
+    cursor: pointer;
+  }
+`
