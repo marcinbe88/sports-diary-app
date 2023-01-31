@@ -3,6 +3,7 @@ import {
   StyledFooter,
   StyledFooterAuthor,
   StyledImageLogo,
+  StyledNameLink,
 } from "./Footer.style";
 import GitHubLogo from "../../assets/GitHubLogo.png";
 import FaceBookLogo from "../../assets/FaceBookLogo.jpeg";
@@ -38,7 +39,11 @@ export function Footer() {
       </StyledFooter>
 
       <StyledFooterAuthor>
-        Copyright © 2023 Marcin Bejger. All rights reserved.
+        Copyright © 2023
+        <a href="https://www.linkedin.com/in/marcin-bejger/">
+          <StyledNameLink>Marcin Bejger</StyledNameLink>
+        </a>
+        . All rights reserved.
       </StyledFooterAuthor>
     </>
   );
