@@ -27,3 +27,23 @@ export const StyledImgLogo = styled.img`
   justify-content: center;
   margin: 30px;
 `;
+
+export const StyledButton = styled.button`
+  width: 120px;
+  height: 50px;
+  border-radius: 20px;
+  background-color: orange;
+  font-family: "play";
+  &:hover {
+    cursor: pointer;
+  }
+`;
+
+export const StyledLinkLogin = styled.a`
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  &:hover {
+    color: white;
+  }
+`;

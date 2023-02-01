@@ -1,5 +1,11 @@
 import { NavLink } from "react-router-dom";
-import { StyledImgLogo, StyledLink, StyledNavigation } from "./NavBar.style";
+import {
+  StyledButton,
+  StyledImgLogo,
+  StyledLink,
+  StyledLinkLogin,
+  StyledNavigation,
+} from "./NavBar.style";
 import diary from "../../assets/diary.png";
 
 export function NavBar() {
@@ -23,14 +29,16 @@ export function NavBar() {
         </div>
 
         <div className="li">
-          <NavLink to="/login">
-            <StyledLink>Login</StyledLink>
+          <NavLink to="/userpanel-seeresult">
+            <StyledLink>User panel</StyledLink>
           </NavLink>
         </div>
 
         <div className="li">
-          <NavLink to="/userpanel-seeresult">
-            <StyledLink>User panel</StyledLink>
+          <NavLink to="/login">
+            <StyledButton>
+              <StyledLinkLogin>Login</StyledLinkLogin>
+            </StyledButton>
           </NavLink>
         </div>
       </StyledNavigation>
