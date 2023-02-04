@@ -50,6 +50,10 @@ export const StyledButton = styled.button`
   color: white;
   font-size: 16px;
   font-family: 'play';
+  &:hover {
+    color: rgb(29, 104, 255);
+    cursor: pointer;
+  }
 `
 
 export const StyledLink = styled.p`
@@ -58,4 +62,8 @@ export const StyledLink = styled.p`
   text-decoration: none;
   font-size: 18px;
   font-weight: bold;
+  &:hover {
+    color: rgb(29, 104, 255);
+    cursor: pointer;
+  }
 `

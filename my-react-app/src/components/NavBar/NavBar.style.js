@@ -23,9 +23,14 @@ export const StyledLink = styled.a`
 export const StyledImgLogo = styled.img`
   align-items: left;
   width: 220x;
-  height: 50px;
+  height: 54px;
   justify-content: center;
   margin: 30px;
+  padding: 4px;
+  border-radius: 20px;
+  &:hover {
+    background: rgb(29, 104, 255);
+  }
 `;
 
 export const StyledButton = styled.button`
