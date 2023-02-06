@@ -1,6 +1,7 @@
 import {
   StyledButton,
   StyledHeader,
+  StyledInfo,
   StyledInputBox,
   StyledLink,
   StyledLoginDescription,
@@ -14,7 +15,7 @@ export const RegisterAccount = () => {
     <>
       <StyledLoginSection>
         <StyledLoginDescription>
-          <StyledHeader>Register</StyledHeader>
+          <StyledHeader>Register*</StyledHeader>
           <StyledParagraph>Name:</StyledParagraph>
           <StyledInputBox
             name="name"
@@ -43,6 +44,7 @@ export const RegisterAccount = () => {
             placeholder="Write your passport"
             maxLength="30"
           />
+          <StyledInfo>*All fields are necessary</StyledInfo>
           <StyledButton>Create account</StyledButton>
         </StyledLoginDescription>
       </StyledLoginSection>

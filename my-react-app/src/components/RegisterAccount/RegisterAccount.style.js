@@ -63,3 +63,11 @@ export const StyledLink = styled.p`
   font-size: 18px;
   font-weight: bold;
 `
+
+export const StyledInfo = styled.p`
+  margin: 14px 30px 10px 30px;
+  color:rgb(205, 1, 1);
+  font-size: 16px;
+  font-weight: bold;
+  width: 400px;
+`;
