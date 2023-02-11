@@ -32,3 +32,12 @@ export const StyledAboutSection = styled.div`
   overflow: hidden;
   padding: 80px;
 `;
+
+export const StyledLink = styled.a`
+  color: navy;
+  text-decoration: underline;
+  font-size: 20px;
+  &:hover {
+    color: rgb(29, 104, 255);
+  }
+`;

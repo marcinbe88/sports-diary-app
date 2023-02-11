@@ -41,6 +41,7 @@ export const StyledImageLogo = styled.img`
 export const StyledNameLink = styled.a`
   color: rgb(29, 104, 255);
   font-weight: bold;
+  text-decoration: underline;
   padding: 0px 3px;
   &:hover {
     color: yellow;

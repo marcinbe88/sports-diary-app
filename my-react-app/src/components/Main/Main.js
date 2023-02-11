@@ -23,7 +23,7 @@ export const Main = () => {
           distances (e.g. 10k run, 21k run, 42k run, 1k swim, 2k swim, 1/4
           Ironman, 1/2 Ironman, etc.)
         </StyledParagraph>
-        <NavLink to="/userpanel-seeresult">
+        <NavLink to="/userpanel-addresult">
           <StyledButton>Add your result</StyledButton>
         </NavLink>
       </StyledMainDescription>

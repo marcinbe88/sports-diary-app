@@ -5,6 +5,7 @@ export const StyledHeader = styled.h1`
   margin: 30px;
   color: navy;
   font-size: 30px;
+  text-decoration: underline;
 `;
 
 export const StyledParagraph = styled.p`

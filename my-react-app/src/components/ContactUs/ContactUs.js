@@ -10,7 +10,7 @@ export const ContactUs = () => {
     <>
       <StyledContactSection>
         <StyledContactDescription>
-          <StyledHeader>Contact Us...</StyledHeader>
+          <StyledHeader>Contact us</StyledHeader>
           <StyledParagraph>Marcin Bejger - founder</StyledParagraph>
           <StyledParagraph>marcin.bejger@gmail.com</StyledParagraph>
           <StyledParagraph>555-444-333</StyledParagraph>

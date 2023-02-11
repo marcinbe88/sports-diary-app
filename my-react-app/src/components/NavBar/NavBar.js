@@ -18,13 +18,13 @@ export function NavBar() {
 
         <div className="li">
           <NavLink to="/about">
-            <StyledLink>About us</StyledLink>
+            <StyledLink>About</StyledLink>
           </NavLink>
         </div>
 
         <div className="li">
           <NavLink to="/contact">
-            <StyledLink>Contact us</StyledLink>
+            <StyledLink>Contact</StyledLink>
           </NavLink>
         </div>
 
