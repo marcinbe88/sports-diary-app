@@ -4,6 +4,7 @@ import {
   StyledUserPanelDescription,
   StyledUserPanelSection,
   StyledParagraph,
+  StyledButton,
 } from "./UserPanelAddResult.style";
 
 export const UserPanelAddResult = () => {
@@ -21,6 +22,10 @@ export const UserPanelAddResult = () => {
             <li>distance</li>
             <li>time</li>
           </StyledParagraph>
+          <StyledButton>Run</StyledButton>
+          <StyledButton>Swim</StyledButton>
+          <StyledButton>Bike</StyledButton>
+          <StyledButton>Triathlon</StyledButton>
         </StyledUserPanelDescription>
       </StyledUserPanelSection>
     </>

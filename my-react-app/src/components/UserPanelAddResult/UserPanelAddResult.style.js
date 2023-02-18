@@ -33,3 +33,17 @@ export const StyledUserPanelDescription = styled.div`
   padding: 25px;
   margin: 0 auto;
   `;
+
+export const StyledButton = styled.button`
+  width: 120px;
+  height: 50px;
+  border-radius: 20px;
+  margin: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: orange;
+  font-family: "play";
+  &:hover {
+    cursor: pointer;
+  }
+`;
