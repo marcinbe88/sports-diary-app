@@ -1,36 +1,36 @@
 import { useState } from 'react'
-import { deleteActor, getActorDocRef, updateActor } from '../api'
-import { getFormData } from '../utils/getFormData'
-import { Form } from './Form'
+import { deleteRun, getRunDocRef, updateRun } from '../../api/showRuns.js'
+import { getFormData } from '../../utils/getFormData'
+import { Form } from '../Form/Form'
 
-export const Actor = ({ id, firstName, lastName, age }) => {
+export const Run = ({ id, date, name, time }) => {
   const [isDraftModeEnabled, setDraftMode] = useState(false)
 
-  const docRef = getActorDocRef(id)
-  const handleDelete = () => deleteActor(docRef)
+  const docRef = getRunDocRef(id)
+  const handleDelete = () => deleteRun(docRef)
   const handleUpdate = e => {
     e.preventDefault()
 
-    updateActor(docRef, getFormData(e))
+    updateRun(docRef, getFormData(e))
     setDraftMode(false)
   }
 
   return (
     <li>
-      <p>Imię: {firstName}</p>
-      <p>Nazwisko: {lastName}</p>
-      <p>Wiek: {age}</p>
-      <button onClick={e => handleDelete(id)}>Usuń aktora</button>
+      <p>Race name: {name}</p>
+      <p>Race date: {date}</p>
+      <p>Time: {time}</p>
+      <button onClick={e => handleDelete(id)}>Delete race</button>
       <button onClick={() => setDraftMode(!isDraftModeEnabled)}>
         {isDraftModeEnabled
           ? 'Przerwij aktualizację'
-          : 'Zaktualizuj dane aktora'}
+          : 'Zaktualizuj dane wyścigu'}
       </button>
       {isDraftModeEnabled && (
         <Form
           handleSubmit={e => handleUpdate(e, id)}
-          defaultValues={{ firstName, lastName, age }}
-          submitText="Zatwierdź nowe dane aktora"
+          defaultValues={{ name, date, time }}
+          submitText="Zatwierdź nowe dane wyścigu"
         />
       )}
     </li>

@@ -1,4 +1,4 @@
-import { Run } from '..Run/Run'
+import { Run } from '../Run/Run'
 
 export const RunList = ({ runs }) => (
   <ul>

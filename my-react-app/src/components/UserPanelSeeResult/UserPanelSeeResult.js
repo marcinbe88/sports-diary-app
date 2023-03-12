@@ -1,4 +1,5 @@
 import { UserPanelNavBar } from "../UserPanelNavBar/UserPanelNavBar";
+import { RunList } from "../RunList/RunList";
 
 import {
   StyledParagraph,
@@ -12,6 +13,7 @@ export const UserPanelSeeResult = () => {
       <StyledUserPanelSection>
         <StyledUserPanelDescription>
           <UserPanelNavBar />
+          {/* <RunList /> */}
           <StyledParagraph>See Result Section</StyledParagraph>
           <StyledParagraph>
             <li>All result in one table</li>

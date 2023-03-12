@@ -14,28 +14,28 @@ import {
 import { db } from './firebase'
 
 const COLLECTIONS_NAMES = {
-  RUN: 'run',
+  RUNS: 'runs',
 }
-const runCollection = collection(db, COLLECTIONS_NAMES.RUN)
+const runsCollection = collection(db, COLLECTIONS_NAMES.RUNS)
 const defaultQueryConstraint = orderBy('createdAt', 'desc')
 
-export const getRunDocRef = docId => doc(db, COLLECTIONS_NAMES.RUN, docId)
+export const getRunDocRef = docId => doc(db, COLLECTIONS_NAMES.RUNS, docId)
 
 export const addRun = run =>
-  addDoc(runCollection, {
+  addDoc(runsCollection, {
     ...run,
     createdAt: serverTimestamp(),
   })
 export const updateRun = (docRef, run) => updateDoc(docRef, run)
 export const deleteRun = docRef => deleteDoc(docRef)
 
-export const queryRun = (filter, cb) => {
+export const queryRuns = (filter, cb) => {
   const q = filter
-    ? query(runCollection, where('date', '==', filter))
-    : query(runCollection, defaultQueryConstraint)
+    ? query(runsCollection, where('date', '==', filter))
+    : query(runsCollection, defaultQueryConstraint)
 
   getDocs(q).then(cb)
 }
 
 export const registerDbListener = cb =>
-  onSnapshot(query(runCollection, defaultQueryConstraint), cb)
+  onSnapshot(query(runsCollection, defaultQueryConstraint), cb)
